@@ -20,4 +20,4 @@ jobs:
         pip install pyinstaller
     - name: installer
       run: |
-        pyinstaller --onefile $(git ls-files '*.py') 
+        pyinstaller --onedir $(git ls-files '*.py') 
