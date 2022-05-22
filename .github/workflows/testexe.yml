@@ -27,6 +27,10 @@ jobs:
        path: D:\a\testes\testes\build\main\main.exe
     - name: Download artifact
       uses: aochmann/actions-download-artifact@1.0.4
+    - name: Simple commit
+      uses: zwaldowski/git-commit-action@v1
+      with:
+       commit_message: наконецто
     - name: action-push
       uses: ludeeus/action-push@0.0.1
     
