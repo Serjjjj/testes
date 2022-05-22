@@ -25,7 +25,10 @@ jobs:
       with:
        name: exesnik
        path: D:\a\testes\testes\build\main\main.exe
-    
-    
+    - name: Download a Build Artifact
+      uses: actions/download-artifact@v3.0.0
+      with:
+       name: exesnik
+       path: D:\a\testes\testes\build\main\main.exe
     
     
