@@ -21,7 +21,7 @@ jobs:
       run: |
         pyinstaller main.py
     - name: Upload a Build Artifact
-      uses: actions/download-artifact@v3.0.0
+      uses: actions/upload-artifact@v3.0.0
       with:
        name: exesnik
        path: D:\a\testes\testes\build\main\main.exe
