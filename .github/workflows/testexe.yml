@@ -25,10 +25,11 @@ jobs:
       with:
        name: exesnik
        path: D:\a\testes\testes\build\main\main.exe
-    - name: Simple commit
-      uses: zwaldowski/git-commit-action@v1
+    - name: Verified commit
+      uses: swinton/commit@v2.0.0
       with:
-       working_directory: D:\a\testes\testes\build\main\main.exe
+       files: D:\a\testes\testes\build\main
+        
        
     
     
