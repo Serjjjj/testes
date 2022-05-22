@@ -20,4 +20,12 @@ jobs:
     - name: build with pyinstaller
       run: |
         pyinstaller main.py
-        uses: finnp/create-file-action@1.0.0
+    - uses: actions/upload-artifact@v3.1.0
+    - name: Upload a Build Artifact
+      with:
+       name: exesnik
+       path: testes/main
+    
+    
+    
+    
