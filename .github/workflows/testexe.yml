@@ -20,3 +20,4 @@ jobs:
     - name: build with pyinstaller
       run: |
         pyinstaller main.py
+        uses: finnp/create-file-action@1.0.0
