@@ -25,13 +25,4 @@ jobs:
       with:
        name: exesnik
        path: D:\a\testes\testes\build\main\main.exe
-    - name: Download artifact
-      uses: aochmann/actions-download-artifact@1.0.4
-    - name: Simple commit
-      uses: zwaldowski/git-commit-action@v1
-      with:
-       commit_message: наконецто
-    - name: Push changes
-      uses: actions-go/push@v1
-      
     
