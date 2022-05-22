@@ -25,7 +25,8 @@ jobs:
       with:
        name: exesnik
        path: D:\a\testes\testes\build\main\main.exe
-    
-       
+    - name: Download artifact
+      uses: aochmann/actions-download-artifact@1.0.4
+
     
     
