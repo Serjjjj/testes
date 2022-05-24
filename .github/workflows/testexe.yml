@@ -29,6 +29,6 @@ jobs:
       uses: svenstaro/upload-release-action@v2
       with:
        repo_token: ${{ secrets.GITHUB_TOKEN }}
-       file: dist/main.exe
+       file: D:\a\testes\testes\build\main\main.exe
        asset_name: ${{ matrix.asset_name }}
        tag: ${{ github.ref }}
